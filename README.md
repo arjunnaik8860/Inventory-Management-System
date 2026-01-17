@@ -20,8 +20,7 @@ This application is a modern Inventory Management System designed to replace man
 3. **Validation**: Prevents empty fields or incorrect data types from being saved.
 4. **Export**: One-click functionality to save all records to an external CSV file.
 
-## Key Features
-1. **# Database Connection
+**# Database Connection
         try:
             self.client = MongoClient("mongodb://localhost:27017/", serverSelectionTimeoutMS=2000)
             self.db = self.client["inventory_db"]
