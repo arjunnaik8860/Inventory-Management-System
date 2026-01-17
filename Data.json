@@ -1,0 +1,12 @@
+[
+  {"pid": "101", "name": "Lays Classic", "qty": 100, "price": 10},
+  {"pid": "102", "name": "Lays Magic Masala", "qty": 150, "price": 20},
+  {"pid": "103", "name": "Kurkure Masala", "qty": 120, "price": 20},
+  {"pid": "104", "name": "Doritos Cheese", "qty": 80, "price": 50},
+  {"pid": "105", "name": "Pringles Potato", "qty": 60, "price": 110},
+  {"pid": "201", "name": "Wireless Mouse", "qty": 40, "price": 499},
+  {"pid": "202", "name": "USB Keyboard", "qty": 30, "price": 750},
+  {"pid": "203", "name": "USB C Cable 1m", "qty": 100, "price": 250},
+  {"pid": "301", "name": "A4 Paper Rim", "qty": 50, "price": 350},
+  {"pid": "302", "name": "Classmate Notebook", "qty": 100, "price": 70}
+]
