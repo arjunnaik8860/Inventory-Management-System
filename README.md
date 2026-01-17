@@ -20,13 +20,14 @@ This application is a modern Inventory Management System designed to replace man
 3. **Validation**: Prevents empty fields or incorrect data types from being saved.
 4. **Export**: One-click functionality to save all records to an external CSV file.
 
-**# Database Connection
+## Database Connection
+
         try:
             self.client = MongoClient("mongodb://localhost:27017/", serverSelectionTimeoutMS=2000)
             self.db = self.client["inventory_db"]
             self.products_col = self.db["users"]
         except:
-            messagebox.showerror("DB Error", "Could not connect to MongoDB!")**
+            messagebox.showerror("DB Error", "Could not connect to MongoDB!")
    
 ## How to Run
 1. Ensure **MongoDB** is running on your local machine (`localhost:27017`).
